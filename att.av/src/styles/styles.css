@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    padding: 20px 70px;
+    align-items: center;
+}
+
+
+body{
+    background-color: black;
+}
+
+.botaozao{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    width: 80px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.header img{
+    width: 80px;
+}
+
+
+.header{
+    background-color: rgb(206, 206, 206);
+    justify-content: space-between;
+}
+
+
+.header .navbar{
+    display: flex;
+    font-size: 20px;
+    gap: 40px;
+}
+
+
+.header .navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.header li{
+    list-style: none;
+}
+
+
+.footer{
+    background-color: rgb(236, 236, 236);
+    gap: 60px;
+}
+
+
+.footer li{
+    list-style: none;
+}
+
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+
+.footer img{
+    filter: invert(100%);
+    width: 200px;
+}
+
+
+.two-column{
+    width: 50vw;
+}
+
+
+.banner{
+
+    background-color: rgb(78, 186, 248);
+}
+@media screen and (max-width: 600px){
+    .container{
+        display: flex;
+        padding: 20px 70px;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .two-column{
+        width: 100vw;
+    }
+}
+
+
+.inner-container img{
+  
+    width: 250px;
+    height: 250px;
+}
+
+
+
+.text-big{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+
+.one-column{
+    font-size: 20px;
+    text-align: center;
+}
+
+.gelaria1{
+    display: flex;
+    justify-content: space-around;
+}
+.gelaria2{
+    display: flex;
+    justify-content: space-around;
+}
+.gelaria1 img{
+    width: 300px;
+    height: 300px;
+}
+.gelaria2 img{
+    width: 300px;
+    height: 300px;
+}
+.mundosenai img{
+    width: 500px;
+    height: 300px;
+}
